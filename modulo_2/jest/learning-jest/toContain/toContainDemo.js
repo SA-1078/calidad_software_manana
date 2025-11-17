@@ -1,39 +1,21 @@
-function obtenerFrutas() {
+function obtenerFrutas(){
     return ['manzana', 'pera', 'uva', 'mango']
 }
 
-function contienePalabra(texto, palabra) {
-    if (typeof texto !== 'string' || typeof palabra !== 'string')
-        throw new TypeError('Ambos argumentos deben ser string')
-    return texto.toLowerCase().includes(palabra.toLowerCase);
+function contienePalabra(texto, palabra){
+    if(typeof texto!=='string' || typeof palabra !=='string')
+        throw new TypeError('Ambos argumentos deben ser strings');
+    return texto.toLowerCase()
+        .includes(palabra.toLowerCase);
 }
-
-function agregarElemento(lista, elemento) {
-    if (!Array.isArray(lista))
-        throw new TypeError('Lista debe ser arreglo');
-    if (!elemento)
-        throw new TypeError('Elemento no puede ser vacio')
+function agregarElemento(lista, elemento){
+    if(!Array.isArray(lista))
+        throw new TypeError('Lista debe ser array');
+    if(!elemento)
+        throw new TypeError('Elemento no puede ser vacio');
     lista.push(elemento);
-    return lista;
+    return lista;        
 }
 
-module.exports = { obtenerFrutas, contienePalabra, agregarElemento };function obtenerFrutas() {
-    return ['manzana', 'pera', 'uva', 'mango']
-}
-
-function contienePalabra(texto, palabra) {
-    if (typeof texto !== 'string' || typeof palabra !== 'string')
-        throw new TypeError('Ambos argumentos deben ser string')
-    return texto.toLowerCase().includes(palabra.toLowerCase);
-}
-
-function agregarElemento(lista, elemento) {
-    if (!Array.isArray(lista))
-        throw new TypeError('Lista debe ser arreglo');
-    if (!elemento)
-        throw new TypeError('Elemento no puede ser vacio')
-    lista.push(elemento);
-    return lista;
-}
-
-module.exports = { obtenerFrutas, contienePalabra, agregarElemento }
+module.exports={obtenerFrutas, 
+    contienePalabra, agregarElemento}
