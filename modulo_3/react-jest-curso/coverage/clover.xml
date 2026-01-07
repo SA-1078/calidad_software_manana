@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1767797451082" clover="3.2.0">
+  <project timestamp="1767797451082" name="All files">
+    <metrics statements="12" coveredstatements="9" conditionals="6" coveredconditionals="6" methods="10" coveredmethods="7" elements="28" coveredelements="22" complexity="0" loc="12" ncloc="12" packages="3" files="3" classes="3"/>
+    <package name="src">
+      <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="App.tsx" path="C:\Users\Santiago\Documents\Proyectos Python\Semestre 3\calidad_software_manana\modulo_3\react-jest-curso\src\App.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components">
+      <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="1" methods="6" coveredmethods="6"/>
+      <file name="Counter.tsx" path="C:\Users\Santiago\Documents\Proyectos Python\Semestre 3\calidad_software_manana\modulo_3\react-jest-curso\src\components\Counter.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="1" methods="6" coveredmethods="6"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="10" count="8" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.utils">
+      <metrics statements="4" coveredstatements="4" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+      <file name="money.ts" path="C:\Users\Santiago\Documents\Proyectos Python\Semestre 3\calidad_software_manana\modulo_3\react-jest-curso\src\utils\money.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="2" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="3" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
